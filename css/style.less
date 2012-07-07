@@ -16,6 +16,10 @@ Site Header
 #site-header {
 	margin-bottom: 40px;
 
+	h1, h2 {
+		padding-left: 20px;
+	}
+
 	h1 {
 		font-size: 70px;
 		line-height: 80px;
@@ -30,8 +34,23 @@ Site Header
 /*
 Main Section
 */
+#main {
+	article {
+		margin-bottom: 30px;
+		border-left: 10px solid white;
+		padding-left: 10px;
+		padding-bottom: 0px;
 
+		&:hover {
+			padding-left: 10px;
+			border-left: 10px solid #333;
+		}
+	}
+}
 
 /*
 Right Sidebar
 */
+#right-sidebar {
+
+}
