@@ -43,6 +43,41 @@ Main Section
   padding-left: 10px;
   border-left: 10px solid #333;
 }
+#main article header {
+  margin-bottom: 10px;
+}
+#main article p {
+  text-align: justify;
+}
 /*
 Right Sidebar
 */
+#right-sidebar ul {
+  list-style-type: none;
+  width: 180px;
+}
+#right-sidebar ul li {
+  margin-bottom: 0px;
+}
+#right-sidebar ul li a {
+  padding: 15px 10px;
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 5px solid #CCC;
+  color: #005580;
+}
+#right-sidebar ul li a:hover {
+  text-decoration: none;
+  background: #DDD;
+  border-bottom: 5px solid #999;
+}
+/*
+Footer
+*/
+#footer {
+  margin-top: 20px;
+}
+#footer p {
+  padding-left: 20px;
+}

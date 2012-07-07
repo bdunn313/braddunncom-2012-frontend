@@ -45,6 +45,10 @@ Main Section
 			padding-left: 10px;
 			border-left: 10px solid #333;
 		}
+
+		header { margin-bottom: 10px; }
+
+		p { text-align: justify; }
 	}
 }
 
@@ -52,5 +56,35 @@ Main Section
 Right Sidebar
 */
 #right-sidebar {
+	ul {
+		list-style-type: none;
+		width: 180px;
 
+		li {
+			margin-bottom: 0px;
+			a {
+				padding: 15px 10px;
+				display: block;
+				font-size: 20px;
+				text-transform: uppercase;
+				border-bottom: 5px solid #CCC;
+				color: #005580;
+
+				&:hover {
+					text-decoration: none;
+					background: #DDD;
+					border-bottom: 5px solid #999;
+				}
+			}
+		}
+	}
+}
+
+/*
+Footer
+*/
+#footer {
+	margin-top: 20px;
+	
+	p { padding-left: 20px; }
 }
